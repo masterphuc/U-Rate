@@ -1,0 +1,26 @@
+{
+  "name": "rating",
+  "version": "1.0.0",
+  "description": "crowd source movie rating",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rainbow"
+  ],
+  "author": "phuc",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "~0.9.1",
+    "dustjs-linkedin": "~2.0.3",
+    "express": "3.4.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.8.3",
+    "mysql": "^2.12.0",
+    "request": "~2.27.0",
+    "twit": "^2.2.5"
+  }
+}
